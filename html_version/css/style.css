@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700|Open+Sans+Condensed:700);
+.square{
+	width:50%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#Blue{
+	background-color: blue; 
+	color: white;
+}
+#Blue:hover{
+	background-color: rgba(0,0,255,.5);
+    color:black;
+}
+#Red{
+	background-color: red; 
+	color: white;
+}
+#Red:hover{
+	background-color: rgba(255,0,0,.5);
+    color:black;
+}
+#Green{
+	background-color: green; 
+	color: white;
+}
+#Green:hover{
+	background-color: rgba(0,255,0,.5);
+    color:black;
+}
+#White{
+	background-color: white;
+	color: black;
+}
+#White:hover{
+	background-color:rgba(225,225,225,1);
+	color: white;
+}
+#Simon{
+	padding-top:30px;
+}
+#Simon article p{
+	font-size: 1.5em;
+	font-weight 700;
+	text-alight: center;
+}

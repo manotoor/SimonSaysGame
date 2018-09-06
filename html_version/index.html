@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="assets/simon.js"></script>
+        <title>HTML CSS Version of Simon Says Game</title>
+    </head>
+    <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Welcome to Simon Says Game</h1>
+            <p>Simon says is a game where you repeat what Simon does. Simon will go through a pattern and you must copy him exactly! </p> 
+        </div>
+        <div class="container" style="margin-top:30px">
+            <main >
+                <section id="countDown">
+                    <div class="jumbotron text-center">
+                        <p id="roundNumber">Press Play</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="row" style="height:200px;">
+                        <button type="button" id="Blue" class="btn btn-lg square" onclick="buttonPressed()">Blue</button>
+                        <button type="button" id="Green" class="btn btn-lg square" onclick="buttonPressed()">Green</button>
+                    </div>
+                    <div class="row" style="height:200px;">
+                        <button type="button" id="White" class="btn btn-lg square" onclick="buttonPressed()">White</button>
+                        <button type="button" id="Red" class="btn btn-lg square" onclick="buttonPressed()">Red</button>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="col sm-8">
+                        <p>Press <b>PLAY</b> to Start or Press <b>RESET</b> to Reset the game!</p>
+                        <button id="play" type="button" class="btn btn-primary" onclick="runSimon()">PLAY</button>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
